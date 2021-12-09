@@ -1,0 +1,49 @@
+.remove-chip {
+    font-size: 0.7rem;
+    text-align: center;
+    color: red;
+    display: grid;
+    place-items: center;
+    background-color: white;
+    border: 1px solid red;
+    position: absolute;
+    padding: 0px 6px;
+    border-radius: 100%;
+    top: 0px;
+    right: -5px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.remove-chip:hover {
+    color: white;
+    background-color: red;
+}
+
+.remove-chip:active {
+    color: red;
+    background-color: white;
+}
+
+
+
+.selectgroup-button {
+    transition: border-color ease-in .2s;
+}
+
+.chip-hover {
+    border-color: rgba(255, 0, 0, 0.5);
+}
+
+
+.label_selected_options {
+    margin: 5px;
+}
+
+.selected_options {
+    margin-bottom: 20px;
+}
+
+.select_block {
+    margin-bottom: 5px;
+}

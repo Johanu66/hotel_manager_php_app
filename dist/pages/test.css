@@ -1,0 +1,29 @@
+#reserv_dispoModal_reserver .modal-dialog {
+  max-width: 1000px;
+}
+
+#reserv_dispoModal_reserver .form-group {
+/*   width: 50%; */
+}
+
+.groups {
+  margin-top: 10px;
+  display: grid;
+/*   grid-column-gap: 50px; */
+  grid-template-columns: 1fr 1fr;
+}
+
+.group_left {
+  padding-right: 25px;
+  border-right: 2px solid rgba(0,0,0,.1);
+}
+
+.details_chambre {
+  padding-right: 25px;
+/*   border-right: 2px solid rgba(0,0,0,.1); */
+}
+
+.group_right {
+  padding-left: 25px;
+  margin-top: 27px;
+}
